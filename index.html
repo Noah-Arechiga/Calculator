@@ -6,10 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css"
 </head>
+
 <body>
     <div id="calculator">
         <input id="display" readonly>
         <div id="keys">
+            <button onclick="clearDisplay()" class="operator-btn">C</button>
+            <button onclick="deleteLast()" class="operator-btn">DEL</button>
+            <button onclick="appendtoDisplay('^')" class="operator-btn">^</button>
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
@@ -23,10 +27,10 @@
             <button onclick="appendToDisplay('2')">2</button>
             <button onclick="appendToDisplay('3')">3</button>
             <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="changeSign()">+/-</button>
             <button onclick="appendToDisplay('0')">0</button> 
             <button onclick="appendToDisplay('.')">.</button>
             <button onclick="calculate()">=</button>
-            <button onclick="clearDisplay()" class="operator-btn">C</button>
         </div>
     </div>
 
