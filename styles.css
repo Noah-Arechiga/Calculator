@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 /* The settings for the calculator itself*/
@@ -20,6 +20,7 @@ body{
 #display{
     width: 100%;
     padding: 20px;
+    padding-top: 60px;
     font-size: 5rem;
     text-align: left;
     border: none;
@@ -35,7 +36,7 @@ body{
     padding: 25px;
 }
 
-/* The style for the buttons */
+/* The style for the digit buttons */
 button{
     width: 100px;
     height: 100px;
