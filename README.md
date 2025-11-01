@@ -1,9 +1,16 @@
-# Calculator
+# 🔢 Calculator App
+Welcome to my simple, responsive, and web-based calculator built using HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations, exponentiation, sign toggling, and a clean UI interaction.
 
-This calculator allows you to perform operations such as:
-- Addition
-- Subtraction
-- Multiplication
-- Division
+## 🧠 How To Use
+* 
 
-as well as allowing you to use integers and decimal numbers. Enjoy!
+## ✨ Features
+* ➕ Addition, ➖ Subtraction, ✖️ Multiplication, ➗ Division
+* 🔼 Exponentiation (^ operator)
+* 🔄 Toggle sign (+/- button)
+* 🧹 Clear (C) and delete last input (DEL) buttons
+
+## Programming Languages and Frameworks Used
+* HTML - used for the application structure
+* CSS - used for the styling and layout of the calculator
+* JavaScript - Used for the calculator logic and interactivity
